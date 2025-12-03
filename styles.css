@@ -1,1 +1,67 @@
 
+body{
+    background-image: url(./pictures/backgrounImage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    padding: 20px;
+    background: rgba(197, 196, 196, 0.042);
+    height: 60px;
+    box-shadow:1px 8px 120px 8px rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+}
+.navDroit{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.navDroit button{
+  background: rgba(197, 196, 196, 0.042);
+  border-radius: 6px;
+  height:25px;
+  width:100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border :0px solid;
+}
+.navGauche p{
+    color: white;
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navDroit button:hover{
+    color: azure;
+    background: #8b8bff;
+    cursor: pointer;
+}
+main{
+ text-align: center;
+ color:azure;
+}
+.Bienvenue{
+    font-size: xx-large;
+    color: white;
+    margin-top : 40px;
+    margin-bottom: 50px;
+}
+
+footer{
+    margin-top: 500px;
+    text-align: center;
+}
+
+footer p{
+    color :white;
+}
+footer a{
+    color: white;
+}
+
+
+#accueil,#apropos,#contact{
+    color: white;
+
+}
