@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS galaxygaming;
+USE galaxygaming;
+
+CREATE TABLE utilisateurs (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nom VARCHAR(100) NOT NULL,
+    prenom VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    motdepasse VARCHAR(150) NOT NULL
+);
